@@ -3,6 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { StudentForm } from "./studentForm";
 import { TeacherForm } from "./teacherForm";
 import { AssignTeacher } from "./assignTeacher";
+import { AssignStudent } from "./assignStudent";
 
 function App() {
   return (
@@ -13,6 +14,8 @@ function App() {
       <TeacherForm></TeacherForm>
       <h5>Assign Teacher or change assigned teacher to student</h5>
       <AssignTeacher></AssignTeacher>
+      <h5>Add students for a Teacher</h5>
+      <AssignStudent />
     </div>
   );
 }
